@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	ftp://excelsior.kullen.rwth-aachen.de/pub/packet_radio/misc/%{name}-%{version}.tar.gz
+# Source0-md5:	b4c5f883d75b112cb0f0dd40c21b3d8c
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
