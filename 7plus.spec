@@ -26,7 +26,7 @@ mv linux.mak Makefile
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{_bindir}
+install -d $RPM_BUILD_ROOT%{_bindir}
 
 install 7plus		$RPM_BUILD_ROOT%{_bindir}
 
