@@ -21,14 +21,15 @@ jest powszechnie stosowany przez radioamatorów.
 %setup -q -n 7plsrc.225
 
 %build
-mv linux.mak Makefile
-%{__make} CC="gcc %{rpmcflags} -Wall"
+mv -f linux.mak Makefile
+%{__make} \
+	CC="%{__cc} %{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install 7plus		$RPM_BUILD_ROOT%{_bindir}
+install 7plus $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
