@@ -1,5 +1,5 @@
 Summary:	Application to split binary files - used widely by hams
-Summary(pl):	Programik do dzielenia plików binarnych - u¿ywany przez radioamatorów
+Summary(pl.UTF-8):   Programik do dzielenia plikÃ³w binarnych - uÅ¼ywany przez radioamatorÃ³w
 Name:		7plus
 Version:	2.25
 Release:	1
@@ -13,9 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Application to split binary files - like base64 / uuencode but for
 hams.
 
-%description -l pl
-Program pozwalaj±cy dzieliæ binaria - jak base64 czy uuencode, lecz
-jest powszechnie stosowany przez radioamatorów.
+%description -l pl.UTF-8
+Program pozwalajÄ…cy dzieliÄ‡ binaria - jak base64 czy uuencode, lecz
+jest powszechnie stosowany przez radioamatorÃ³w.
 
 %prep
 %setup -q -n 7plsrc.225
