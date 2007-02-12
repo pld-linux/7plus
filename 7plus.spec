@@ -1,5 +1,5 @@
 Summary:	Application to split binary files - used widely by hams
-Summary(pl.UTF-8):   Programik do dzielenia plików binarnych - używany przez radioamatorów
+Summary(pl.UTF-8):	Programik do dzielenia plików binarnych - używany przez radioamatorów
 Name:		7plus
 Version:	2.25
 Release:	1
